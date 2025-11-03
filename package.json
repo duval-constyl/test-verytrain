@@ -1,0 +1,21 @@
+{
+  "name": "test-verytrain",
+  "version": "1.0.0",
+  "description": "Implémenter et déployer une API REST qui justifie un texte passé en paramètre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duval-constyl/test-verytrain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/duval-constyl/test-verytrain/issues"
+  },
+  "homepage": "https://github.com/duval-constyl/test-verytrain#readme"
+}
