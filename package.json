@@ -10,7 +10,13 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:verbose": "jest --verbose"
+    "test:verbose": "jest --verbose",
+    "docker:build": "docker build -t justify-api .",
+    "docker:run": "docker run -p 3000:3000 justify-api",
+    "docker:compose": "docker-compose up -d",
+    "docker:compose:dev": "docker-compose up justify-api-dev",
+    "docker:test": "docker-compose up justify-api-test",
+    "docker:clean": "docker system prune -f"
   },
   "repository": {
     "type": "git",

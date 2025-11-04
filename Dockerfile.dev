@@ -1,0 +1,20 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copier les fichiers de configuration
+COPY package*.json ./
+COPY tsconfig.json ./
+COPY jest.config.js ./
+
+# Installer toutes les dépendances
+RUN npm ci
+
+# Copier le code source
+COPY src/ ./src/
+COPY tests/ ./tests/
+
+EXPOSE 3000
+
+# Commande de développement avec rechargement automatique
+CMD ["npm", "run", "dev"]

@@ -35,3 +35,27 @@ Production
 npm run build
 npm start
 ```
+
+
+
+ test-verytrain/
+├── node_modules/
+├── src/
+│   ├── controllers/
+│   │   └── justifyController.ts
+│   │   └── tokenController.ts
+│   ├── middleware/
+│   │   └── auth.ts
+│   ├── models/
+│   │   └── token.ts
+│   ├── routes/
+│   │   └── index.ts
+│   ├── utils/
+│   │   └── justify.ts
+│   └── app.ts
+├── tests/
+│   └── justify.test.ts 
+├── jest.config.js
+├── package-lock.json
+├── package.json
+└── tsconfig.json
