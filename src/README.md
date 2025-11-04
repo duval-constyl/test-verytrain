@@ -13,11 +13,11 @@ Une API REST qui justifie automatiquement du texte selon les règles typographiq
 - Déploiement prêt pour les environments cloud
 
 # Démarrage rapide
-## Prérequis 
+### Prérequis 
 - Node.js, 
 - npm / yarn
 
-## Installation
+### Installation
 Cloner le repository
 ```bash
 git clone https://github.com/duval-constyl/test-verytrain.git
