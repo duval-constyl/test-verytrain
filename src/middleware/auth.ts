@@ -41,7 +41,7 @@ export const rateLimit = (req: Request, res: Response, next: NextFunction) => {
 
   // Vérifie si le token peut traiter ce nombre de mots
   if (!tokenManager.canUseToken(token, wordCount)) {
-    return res.status(402).json({ error: 'Limite quotidienne dépassée' });
+    return res.status(402).json({ error: 'Payment Required' });
   }
 
   // Incrémente le compteur de mots pour ce token
