@@ -1,8 +1,8 @@
-### API de Justification de Texte
+# API de Justification de Texte
 
 Une API REST qui justifie automatiquement du texte selon les règles typographiques françaises, avec système d'authentification et limitation de débit.
 
-### Fonctionnalités
+# Fonctionnalités
 
 - Justification de texte à 80 caractères par ligne
 - Système d'authentification par token unique
@@ -12,12 +12,12 @@ Une API REST qui justifie automatiquement du texte selon les règles typographiq
 - Tests unitaires avec couverture de code
 - Déploiement prêt pour les environments cloud
 
-### Démarrage rapide
-# Prérequis 
+# Démarrage rapide
+## Prérequis 
 - Node.js, 
 - npm / yarn
 
-# Installation
+## Installation
 Cloner le repository
 ```bash
 git clone https://github.com/duval-constyl/test-verytrain.git
