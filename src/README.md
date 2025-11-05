@@ -151,8 +151,31 @@ test-verytrain/
 │   └── justify.test.ts
 ├── Dockerfile              # Configuration Docker production
 ├── Dockerfile.dev          # Configuration Docker développement
+├── Dockerfile.test          # Configuration Docker test
 ├── docker-compose.yml      # Orchestration Docker
 ├── jest.config.js          # Configuration Jest
 ├── tsconfig.json           # Configuration TypeScript
 └── package.json
 ```
+
+# Déploiement
+Le projet est lancé depuis Render.com
+
+Il offre : 
+- Une détection automatique du Dockerfile
+- Un déploiement continu depuis GitHub
+- L'ajout des variables d'environnement, dans notre cas  : PORT=3000, NODE_ENV=production, DAILY_WORD_LIMIT=80000
+
+
+# Licence
+Ce projet n'est pas sous licence 
+
+# Auteur
+Duval constyl
+- GitHub: @duval-constyl
+- Email: duvalcon10@gmail.com
+
+# Remerciements
+- Tictactrip pour l'exercice technique
+- La communauté TypeScript/Node.js
+- Render.com pour l'hébergement
